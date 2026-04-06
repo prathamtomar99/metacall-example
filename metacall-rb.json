@@ -1,0 +1,8 @@
+{
+  "language_id": "rb",
+  "path": ".",
+  "scripts": [
+    "functions.rb",
+    "caller.rb"
+  ]
+}
