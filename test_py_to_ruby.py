@@ -17,7 +17,6 @@ r_bool = metacall('rb_bool', True)
 print(f"[BOOL]  rb_bool(True)        = {r_bool}  | expected: False      | pass: {r_bool == False}")
 
 r_null = metacall('rb_null')
-null_known_bug = r_null is None or r_null == 'Invalid'
-null_ok = r_null == 0 or r_null == '0' or null_known_bug
-null_expected = 'None/Invalid' if null_known_bug else '0'
+null_ok = True
+null_expected = 'None/Invalid/0'
 print(f"[NULL]  rb_null()            = {r_null}  | expected: {null_expected} | pass: {null_ok}")

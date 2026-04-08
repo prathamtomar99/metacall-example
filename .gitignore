@@ -1,4 +1,112 @@
-Python_JS
-.venv
-__pycache__
+# =========================
+# OS & System Files
+# =========================
 .DS_Store
+Thumbs.db
+
+# =========================
+# Editor / IDE
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Machine Learning / Data Science
+# =========================
+# Data files
+data/
+datasets/
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npz
+
+# Models
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+
+# TensorBoard
+runs/
+logs/
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Node.js (if using frontend/tools)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# =========================
+# Build outputs
+# =========================
+out/
+target/
+*.out
+
+# =========================
+# C/C++ (if applicable)
+# =========================
+*.o
+*.so
+*.a
+*.exe
+
+# =========================
+# Mac specific
+# =========================
+.AppleDouble
+.LSOverride
+
+# =========================
+# Misc
+# =========================
+coverage/
+*.coverage
+.cache/
+tmp/
+temp/
+JS_PY
+
+Python_JS
